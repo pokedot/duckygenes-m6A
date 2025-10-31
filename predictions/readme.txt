@@ -1,0 +1,1 @@
+Prediction results can be found in this folder after running the inference script.
