@@ -1,2 +1,3 @@
 /data/*
 !/data/placeholder.txt
+!/data/dataset2.json.gz
