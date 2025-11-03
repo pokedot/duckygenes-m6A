@@ -25,16 +25,18 @@ This project focuses on site-level m6A modification detection from nanopore/RNA-
 
 ## Quick start (inference)
 
-**Note: We recommend using a machine with sufficient storage for this task (e.g. t3.large).**
+**Note: We recommend using a machine with sufficient storage for this task (e.g. t3.large).**<br>
 If you do not have Python/ Pip installed:
 1. Run the following command in the Ubuntu terminal: `sudo apt install python3 python3-pip`
+2. After installing, you may need to reboot: `sudo reboot`
 
 Once Python is installed:
 1. Run the following command in the Ubuntu terminal: `git clone https://github.com/pokedot/duckygenes-m6A.git`
 2. Then, navigate into the project folder: `cd duckygenes-m6A`
 3. Next, install all the required packages: `pip3 install -r requirements.txt`
-4. Navigate into the scripts folder: `cd scripts`
-5. Finally, run the .py script. Note that the script uses dataset2.json.gz by default: `python3 cnn_mil_transformers_inference.py`<br>
+4. After installing, you may need to reboot: `sudo reboot`
+5. Navigate into the scripts folder: `cd scripts`
+6. Finally, run the .py script. Note that the script uses dataset2.json.gz by default: `python3 cnn_mil_transformers_inference.py`<br>
 *You may choose to run the script on a different dataset. Upload your dataset into the data folder, then edit the .py script's parameters to your dataset file name.*
 
 ## File formats and artifacts
