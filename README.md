@@ -27,7 +27,7 @@ This project focuses on site-level m6A modification detection from nanopore/RNA-
 
 **Note: We recommend using a machine with sufficient storage for this task (e.g. >20GB).**<br>
 If you do not have Python/ Pip installed:
-1. Run the following command in the Ubuntu terminal: `sudo apt install python3 python3-pip`
+1. Run the following command in the Ubuntu terminal: `sudo apt install python3-pip`
 2. After installing, you may need to reboot: `sudo reboot`
 
 Once Python is installed:
